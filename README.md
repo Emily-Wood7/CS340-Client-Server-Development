@@ -1,1 +1,13 @@
 # CS340-Client-Server-Development
+**How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?**
+
+I write programs in pieces.  I use comments and #TODOs to explain what each section should do.  Then I test each piece before moving on to the next piece.  This makes sure it is maintainable so that others can see what is happening.  It is readable because the comments explain what should be happening in each section.  With the CRUD module, it is very adaptable in that it’s simple create, read, update, delete methods that can be used with any MongoDb database in the future due to the PyMongo driver within the Python library.
+
+**How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?**
+
+Approaching a problem in pieces ensures that each requirement is met.  The dashboard required filtering, a chart, and a map.  I ensured each piece worked before moving on to the next one.  This approach was no different from how I approached different projects in other courses.  I enjoyed reading through the MongoDB and Plotly Dash documentation to see what other features I could implement or refine what I was already working on.  I would use the documentation more in other database programs to figure out problems.  In the final week of class, we worked with aggregation, which is very helpful for advanced queries, and I would use that more in the future.
+
+**What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+Computer scientists develop software to find solutions for people and companies.  There is a lot of logic and problem solving involved in the computer science field.**
+
+In the example of Grazioso Salvare, the standard way to find animals fit for search and rescue would involve making calls to each shelter to see what animals they have.  This takes up their time and the shelter’s time which could be better spent working with the animals.  By completing this project that imports the data available, Grazioso Salvare can quickly determine if an animal is available for their purposes and spend the rest of the time training that animal.
